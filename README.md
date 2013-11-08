@@ -1,9 +1,9 @@
-PJDBC (README)
+RadiumSalt (README)
 ====================
-This is the README for the PJDBC application, which is kept in a
+This is the README for the RadiumSalt application, which is kept in a
 GitHub repository at
 
-    https://bitbucket.org/dventimi/PJDBC
+    https://bitbucket.org/dventimi/RadiumSalt
 
 
 POSIX Installation
@@ -12,10 +12,10 @@ POSIX Installation
 Installation instructions for POSIX-compliant platforms, such as:
 Unix, Linux, BSD Unix, and Mac OS X.
 
-Though it is written in Java, PJDBC adheres to the GNU coding
+Though it is written in Java, RadiumSalt adheres to the GNU coding
 standards (see http://www.gnu.org/prep/standards/), so it adopts that
 standard's Autotools convention for building and installing.  To
-configure, build, and install PJDBC, execute these statements in a
+configure, build, and install RadiumSalt, execute these statements in a
 command-line shell:
 
     ./configure
@@ -41,7 +41,7 @@ above within a Cygwin (http://www.cygwin.com/) console window.
 Requirements
 --------------------
 
-1. PJDBC is written in Java, and JDK 1.7
+1. RadiumSalt is written in Java, and JDK 1.7
    (http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
    is required.
 

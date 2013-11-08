@@ -26,10 +26,10 @@ clean-local:
 
 check: @PACKAGE@.jar
 	@@JAVA@ -cp $(CLASSPATH):@PACKAGE@.jar org.junit.runner.JUnitCore \
-	org.pjdbc.tests.CatDriverTest \
-	org.pjdbc.tests.DriverCompositionTest \
-	org.pjdbc.tests.FilteringDriverTest \
-	org.pjdbc.tests.LoggingDriverTest \
-	org.pjdbc.tests.SinkDriverTest \
-	org.pjdbc.tests.TeeDriverTest
+	org.radiumsalt.tests.CatDriverTest \
+	org.radiumsalt.tests.DriverCompositionTest \
+	org.radiumsalt.tests.FilteringDriverTest \
+	org.radiumsalt.tests.LoggingDriverTest \
+	org.radiumsalt.tests.SinkDriverTest \
+	org.radiumsalt.tests.TeeDriverTest
 

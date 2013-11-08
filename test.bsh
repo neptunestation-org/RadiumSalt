@@ -1,8 +1,8 @@
 // -*- mode: java -*-
 
-import org.pjdbc.util.*;
-import org.pjdbc.drivers.*;
-import org.pjdbc.tests.*;
+import org.radiumsalt.util.*;
+import org.radiumsalt.drivers.*;
+import org.radiumsalt.tests.*;
 import java.sql.*;
 
 driver = new MockDriver();

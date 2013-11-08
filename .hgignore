@@ -8,6 +8,6 @@ Makefile.in
 config.log
 config.status
 configure
-pjdbc.jar
+radiumsalt.jar
 *.stamp
 *.log
