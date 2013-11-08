@@ -1,0 +1,13 @@
+syntax: glob
+
+scratch
+classes
+*.cache
+Makefile
+Makefile.in
+config.log
+config.status
+configure
+pjdbc.jar
+*.stamp
+*.log
