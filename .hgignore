@@ -11,3 +11,4 @@ configure
 radiumsalt.jar
 *.stamp
 *.log
+Test.java
