@@ -55,7 +55,7 @@ subdir = .
 DIST_COMMON = README $(am__configure_deps) $(dist_java_JAVA) \
 	$(dist_pkgdata_DATA) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(top_srcdir)/configure AUTHORS COPYING \
-	ChangeLog INSTALL NEWS config.guess config.sub install-sh \
+	ChangeLog INSTALL NEWS TODO config.guess config.sub install-sh \
 	missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -611,12 +611,12 @@ clean-local:
 
 check: @PACKAGE@.jar
 	@@JAVA@ -cp $(CLASSPATH):@PACKAGE@.jar org.junit.runner.JUnitCore \
-	org.pjdbc.tests.CatDriverTest \
-	org.pjdbc.tests.DriverCompositionTest \
-	org.pjdbc.tests.FilteringDriverTest \
-	org.pjdbc.tests.LoggingDriverTest \
-	org.pjdbc.tests.SinkDriverTest \
-	org.pjdbc.tests.TeeDriverTest
+	org.radiumsalt.tests.CatDriverTest \
+	org.radiumsalt.tests.DriverCompositionTest \
+	org.radiumsalt.tests.FilteringDriverTest \
+	org.radiumsalt.tests.LoggingDriverTest \
+	org.radiumsalt.tests.SinkDriverTest \
+	org.radiumsalt.tests.TeeDriverTest
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
