@@ -1,7 +1,7 @@
 AC_PREREQ([2.62])
 AC_INIT([RadiumSalt], [0.9], [http://www.radiumsalt.org])
 AM_INIT_AUTOMAKE([-Wno-portability])
-AC_CONFIG_SRCDIR([src/org/radiumsalt/util/AutoTest.java])
+AC_CONFIG_SRCDIR([src/org/radiumsalt/RadiumSalt.java])
 AC_CANONICAL_HOST
 AS_CASE([$host_os], [cygwin], [CYGPATH_PW="cygpath -pw"], [CYGPATH_PW="echo"])
 AC_SUBST([CYGPATH_PW])
