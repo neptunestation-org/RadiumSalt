@@ -1,0 +1,9 @@
+/radiumsalt.jar
+*.jar
+/configure
+*.log
+*.status
+*.stamp
+Makefile
+*.cache
+/classes/
